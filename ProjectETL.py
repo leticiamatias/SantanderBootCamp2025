@@ -96,7 +96,7 @@ print(json.dumps(users, indent=2))
 
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'openai-token'
 
 def generate_ai_news(user):
 	completion = openai.ChatCompletion.create(
